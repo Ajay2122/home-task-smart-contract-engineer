@@ -1,0 +1,5 @@
+export const CONTRACTS = {
+  PREDICTION_MARKET: process.env.NEXT_PUBLIC_PREDICTION_MARKET_ADDRESS as `0x${string}`,
+  REPUTATION_SYSTEM: process.env.NEXT_PUBLIC_REPUTATION_SYSTEM_ADDRESS as `0x${string}`,
+  MOCK_USDC: process.env.NEXT_PUBLIC_MOCK_USDC_ADDRESS as `0x${string}`,
+};
